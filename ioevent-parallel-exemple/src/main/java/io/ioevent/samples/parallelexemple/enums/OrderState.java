@@ -1,0 +1,5 @@
+package io.ioevent.samples.parallelexemple.enums;
+
+public enum OrderState {
+CREATED,PENDING,VALID_STOCK,INVALID_STOCK,VALID_BUDGET,INVALID_BUDGET,ACCEPTED,REJECTED,CLOSED, ERROR, STOCK_ERROR, BUDGET_ERROR
+}
