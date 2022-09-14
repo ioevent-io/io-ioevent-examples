@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:29092
+  application:
+    name: File Exemple
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: Products
