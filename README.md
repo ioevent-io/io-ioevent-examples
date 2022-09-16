@@ -9,16 +9,16 @@ You can build the entire samples by going to the root of the repository and then
 
 * Hello World Sample
 
-![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-hello-world/ioevent-hello-world-diagram.svg)
+![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-hello-world/ioevent-hello-world-diagram.jpg)
 
 * Exclusive Gateway Sample
 
-![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-exclusive-exemple/ioevent-exclusive-flow-exemple.svg)
+![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-exclusive-exemple/ioevent-exclusive-flow-exemple.jpg)
 
 * Parallel Gateway Sample
 
-![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-parallel-exemple/ioevent-parrallel-flow-exemple.svg)
+![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-parallel-exemple/ioevent-parrallel-flow-exemple.jpg)
 
 * File Processing Sample
 
-![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-file-processing/ioevent-file-processing-exemple.svg)
+![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-file-processing/ioevent-file-processing-exemple.jpg)
