@@ -7,4 +7,4 @@ This application used to print a Hello World! message
 
 # Following is the Bpmn implemented using IO Event
 
-![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-hello-world/ioevent-hello-world-diagram.svg)
+![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-hello-world/ioevent-hello-world-diagram.jpg)

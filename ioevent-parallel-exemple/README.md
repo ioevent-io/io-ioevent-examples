@@ -8,4 +8,4 @@ This application used to process orders, first of all the process start by creat
 
 # Following is the Bpmn implemented using IO Event
 
-![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-parallel-exemple/ioevent-parrallel-flow-exemple.svg)
+![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-parallel-exemple/ioevent-parrallel-flow-exemple.jpg)

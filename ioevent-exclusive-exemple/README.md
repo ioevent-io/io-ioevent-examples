@@ -8,6 +8,6 @@ This application used to decide the way of traveling according to the destinatio
 # Following is the Bpmn implemented using IO Event
 
 
-![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-exclusive-exemple/ioevent-exclusive-flow-exemple.svg)
+![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-exclusive-exemple/ioevent-exclusive-flow-exemple.jpg)
 
 
