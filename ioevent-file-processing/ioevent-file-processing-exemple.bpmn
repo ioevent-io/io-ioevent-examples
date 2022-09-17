@@ -4,7 +4,7 @@
     <bpmn:startEvent id="StartEvent_0e6q9yz">
       <bpmn:outgoing>Flow_18qy0ld</bpmn:outgoing>
     </bpmn:startEvent>
-    <bpmn:task id="Activity_18kejin" name="load products">
+    <bpmn:task id="Activity_18kejin" name="capture products">
       <bpmn:incoming>Flow_18qy0ld</bpmn:incoming>
       <bpmn:outgoing>Flow_0tz75km</bpmn:outgoing>
     </bpmn:task>
@@ -14,7 +14,7 @@
       <bpmn:outgoing>Flow_02qbqz7</bpmn:outgoing>
       <bpmn:outgoing>Flow_053zcv4</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:sequenceFlow id="Flow_0tz75km" name="product loaded" sourceRef="Activity_18kejin" targetRef="Gateway_0xxwj3x" />
+    <bpmn:sequenceFlow id="Flow_0tz75km" name="product captured" sourceRef="Activity_18kejin" targetRef="Gateway_0xxwj3x" />
     <bpmn:task id="Activity_1c1e2qb" name="save">
       <bpmn:incoming>Flow_02qbqz7</bpmn:incoming>
       <bpmn:outgoing>Flow_10g1t1m</bpmn:outgoing>
@@ -55,13 +55,20 @@
         <di:waypoint x="350" y="180" />
         <di:waypoint x="485" y="180" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="382" y="162" width="74" height="14" />
+          <dc:Bounds x="378" y="162" width="83" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_18qy0ld_di" bpmnElement="Flow_18qy0ld">
         <di:waypoint x="188" y="180" />
         <di:waypoint x="250" y="180" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_0e6q9yz">
+        <dc:Bounds x="152" y="162" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_18kejin_di" bpmnElement="Activity_18kejin">
+        <dc:Bounds x="250" y="140" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_0xxwj3x_di" bpmnElement="Gateway_0xxwj3x" isMarkerVisible="true">
         <dc:Bounds x="485" y="155" width="50" height="50" />
         <bpmndi:BPMNLabel>
@@ -83,13 +90,6 @@
         <bpmndi:BPMNLabel>
           <dc:Bounds x="861" y="135" width="19" height="14" />
         </bpmndi:BPMNLabel>
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_0e6q9yz">
-        <dc:Bounds x="152" y="162" width="36" height="36" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_18kejin_di" bpmnElement="Activity_18kejin">
-        <dc:Bounds x="250" y="140" width="100" height="80" />
-        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>

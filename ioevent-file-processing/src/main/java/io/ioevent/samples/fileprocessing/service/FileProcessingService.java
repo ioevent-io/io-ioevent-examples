@@ -30,13 +30,13 @@ public class FileProcessingService {
 	@Autowired
 	ResourceLoader resourceLoader;
 
-	@IOEvent(key = "load product", topic = "file-processing-topic", output = @OutputEvent(key = "product loaded"))
-	public Product loadProduct(Product product) {
+	@IOEvent(key = "capture product", topic = "file-processing-topic", output = @OutputEvent(key = "product captured"))
+	public Product captureProduct(Product product) {
 		product.setState(ProductState.CREATED);
 		return product;
 	}
 
-	@IOEvent(key = "check product validation", topic = "file-processing-topic", input = @InputEvent(key = "product loaded"), gatewayOutput = @GatewayOutputEvent(exclusive = true, output = {
+	@IOEvent(key = "check product validation", topic = "file-processing-topic", input = @InputEvent(key = "product captured"), gatewayOutput = @GatewayOutputEvent(exclusive = true, output = {
 			@OutputEvent(key = "valid product"), @OutputEvent(key = "invalid product") }))
 	public IOResponse<Product> checkValidation(Product product) {
 		if (productIsValid(product)) {

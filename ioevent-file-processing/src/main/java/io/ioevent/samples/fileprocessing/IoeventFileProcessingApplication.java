@@ -35,7 +35,7 @@ public class IoeventFileProcessingApplication {
 
 		beans.forEach(product -> {
 			new Thread(() -> {
-				fileProcessingService.loadProduct(product);
+				fileProcessingService.captureProduct(product);
 			}).start();
 		});
 	}
