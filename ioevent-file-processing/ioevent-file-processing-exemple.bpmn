@@ -4,7 +4,7 @@
     <bpmn:startEvent id="StartEvent_0e6q9yz">
       <bpmn:outgoing>Flow_18qy0ld</bpmn:outgoing>
     </bpmn:startEvent>
-    <bpmn:task id="Activity_18kejin" name="capture products">
+    <bpmn:task id="Activity_18kejin" name="capture product">
       <bpmn:incoming>Flow_18qy0ld</bpmn:incoming>
       <bpmn:outgoing>Flow_0tz75km</bpmn:outgoing>
     </bpmn:task>
