@@ -3,3 +3,6 @@ spring:
     bootstrap-servers: localhost:29092
   application:
     name: Parallel Exemple
+ioevent:
+  group_id: TestFlow
+  api_key: 23cc2452-b86b-4265-b52d-ec85a48a1172

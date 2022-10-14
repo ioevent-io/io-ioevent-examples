@@ -8,3 +8,7 @@ spring:
       host: localhost
       port: 27017
       database: Products
+ioevent:
+  prefix: WorkflowTestMS
+  group_id: WorkflowTestMS
+  api_key: 23cc2452-b86b-4265-b52d-ec85a48a1172
