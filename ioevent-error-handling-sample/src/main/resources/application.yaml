@@ -1,14 +1,5 @@
-ioevent:
-  group_id: Samples
-  api_key: 23cc2452-b86b-4265-b52d-ec85a48a1172
-  
 spring:
   kafka:
     bootstrap-servers: localhost:29092
   application:
     name: Discounts_Showcase
-
-server:
-  port: 8083
-
-

@@ -11,5 +11,6 @@
   <module>ioevent-exclusive-exemple</module>
   <module>ioevent-file-processing</module>
   <module>ioevent-hello-world</module>
+  <module>DiscountsShowCase</module>
   </modules>
 </project>

@@ -22,3 +22,7 @@ You can build the entire samples by going to the root of the repository and then
 * File Processing Sample
 
 ![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-file-processing/ioevent-file-processing-exemple.jpg)
+
+* Error handling Sample
+
+![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-error-handling-sample/ioevent-error-handling-flow-sample.jpg)
