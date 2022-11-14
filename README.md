@@ -13,11 +13,11 @@ You can build the entire samples by going to the root of the repository and then
 
 * Exclusive Gateway Sample
 
-![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-exclusive-exemple/ioevent-exclusive-flow-exemple.jpg)
+![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-exclusive-sample/ioevent-exclusive-flow-exemple.jpg)
 
 * Parallel Gateway Sample
 
-![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-parallel-exemple/ioevent-parrallel-flow-exemple.jpg)
+![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-parallel-sample/ioevent-parrallel-flow-exemple.jpg)
 
 * File Processing Sample
 
