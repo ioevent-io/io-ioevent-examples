@@ -26,3 +26,7 @@ You can build the entire samples by going to the root of the repository and then
 * Error handling Sample
 
 ![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-error-handling-sample/ioevent-error-handling-flow-sample.jpg)
+
+* Error End Sample
+
+![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-error-handling-sample/ioevent-error-end-flow-sample.jpg)
