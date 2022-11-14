@@ -29,4 +29,4 @@ You can build the entire samples by going to the root of the repository and then
 
 * Error End Sample
 
-![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-error-end/ioevent-error-end-flow-sample.jpg)
+![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-error-end/io-event-error-end-flow-sample.jpg)
