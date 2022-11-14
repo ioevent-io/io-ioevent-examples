@@ -4,14 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter @Setter 
+@NoArgsConstructor
 public class Voucher {
 	private String id;
 	private double amount;
 	private List<Item> cart = new ArrayList<>();
 	private double toPay = 0;
+	
 	public Voucher(String id, double amount) {
 		super();
 		this.id = id;

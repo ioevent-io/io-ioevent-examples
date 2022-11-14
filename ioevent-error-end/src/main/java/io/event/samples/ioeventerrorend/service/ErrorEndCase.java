@@ -28,7 +28,7 @@ public class ErrorEndCase {
 					@OutputEvent(key = "order to money")
 			}))
 	public int process(int order) {
-		return order;
+		return order; 
 	}
 	@IOEvent(key = "Get the money",	
 			input = @InputEvent(key="order to money"),

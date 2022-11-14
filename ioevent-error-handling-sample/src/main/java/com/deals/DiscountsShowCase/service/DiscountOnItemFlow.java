@@ -41,14 +41,14 @@ public class DiscountOnItemFlow {
 			itemsTotal+=item.getPrice();
 		}
 		if(itemsTotal>voucher.getAmount()) {
-	         throw new ArithmeticException("Unable to calculate the discount because the items picked cost is above the voucher amount"); 
+			throw new ArithmeticException("Unable to calculate the discount because the items picked cost is above the voucher amount"); 
 		}else {
 			voucher.setToPay(itemsTotal);
 		}
 		return voucher;
 	}
 	
-	@IOEvent(key = "Handle discount arithmetic exception",	
+	@IOEvent(key = "Handle discount arithmetic exception",
 			input = @InputEvent(key = "Discount calculation error"),
 			output = @OutputEvent(key = "Discount set"))
 	public Voucher handleDiscountError(Voucher voucher) {
