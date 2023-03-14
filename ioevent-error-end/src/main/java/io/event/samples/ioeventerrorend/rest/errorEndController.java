@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.event.samples.ioeventerrorend.service.ErrorEndCase;
+import io.event.samples.ioeventerrorend.service.ATMServcie;
 
 @CrossOrigin(origins = "*")
 @RestController
@@ -14,12 +14,12 @@ import io.event.samples.ioeventerrorend.service.ErrorEndCase;
 public class errorEndController {
 	
 	@Autowired
-	ErrorEndCase errorEndCase;
+	ATMServcie atmServcie;
 	
 
 	@GetMapping("/start")
 	public String start() throws InterruptedException {
-		errorEndCase.withdraw(3);
+		atmServcie.withdraw(3);
 		return "done";
 	}
 

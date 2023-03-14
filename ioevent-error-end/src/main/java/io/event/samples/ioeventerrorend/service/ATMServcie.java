@@ -14,7 +14,7 @@ import io.event.samples.ioeventerrorend.exception.InsuffisiantPapers;
 
 @Service
 @IOFlow(name = "ATM Withdraw", topic = "bank-withdraw" )
-public class ErrorEndCase {
+public class ATMServcie {
 	
 	@IOEvent(key = "Withdraw money",	
 			output = @OutputEvent(key="Process operation"))
