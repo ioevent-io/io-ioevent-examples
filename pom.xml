@@ -12,5 +12,6 @@
   <module>ioevent-file-processing</module>
   <module>ioevent-hello-world</module>
   <module>DiscountsShowCase</module>
+  <module>ioevent-paying-bill-sample</module>
   </modules>
 </project>

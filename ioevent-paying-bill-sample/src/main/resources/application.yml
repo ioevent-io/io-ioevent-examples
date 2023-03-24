@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Bill_Payment_Sample
+  kafka:
+    bootstrap-servers: localhost:29092
+server:
+  port: 8083
