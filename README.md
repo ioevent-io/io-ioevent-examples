@@ -33,8 +33,8 @@ You can build the entire samples by going to the root of the repository and then
 
 * Start Timer Sample
 
-![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-start-timer/io-event-start-timer-exemple.jpg)
+![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-start-timer/ioevent-start-timer-exemple.jpg)
 
 * Intermediate Timer Sample
 
-![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-intermediate-timer/io-event-intermediate-timer-exemple.jpg)
+![alt text](https://raw.githubusercontent.com/ioevent-io/io-ioevent-samples/main/ioevent-intermediate-timer/ioevent-intermediate-timer-exemple.jpg)
