@@ -7,11 +7,14 @@
   <name>io-ioevent-samples</name>
   <description>ioevent samples projects</description>
   <modules>
-  <module>ioevent-parallel-exemple</module>
-  <module>ioevent-exclusive-exemple</module>
-  <module>ioevent-file-processing</module>
-  <module>ioevent-hello-world</module>
-  <module>DiscountsShowCase</module>
-  <module>ioevent-paying-bill-sample</module>
+    <module>ioevent-parallel-sample</module>
+    <module>ioevent-exclusive-sample</module>
+    <module>ioevent-file-processing</module>
+    <module>ioevent-hello-world</module>
+    <module>ioevent-error-end</module>
+    <module>ioevent-error-handling-sample</module>
+    <module>ioevent-start-timer</module>
+    <module>ioevent-intermediate-timer</module>
+    <module>ioevent-paying-bill-sample</module>
   </modules>
 </project>
