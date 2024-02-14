@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+  application:
+    name: ioevent-userTask
+server:
+  port: 8084
+ioevent:
+  prefix: Samples
+  group_id: Samples

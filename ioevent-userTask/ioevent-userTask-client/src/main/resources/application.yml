@@ -1,0 +1,13 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+  application:
+    name: userTasksBackend
+ioevent:
+  application_name: ioevent-userTask
+  prefix: Samples
+servers:
+  elasticsearch:
+    url: http://localhost:9200
+server:
+  port: 8089
