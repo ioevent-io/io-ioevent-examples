@@ -1,4 +1,4 @@
-package ioevent.samples.ioeventuserTask;
+package ioevent.samples.ioeventuserTaskClient;
 
 import com.ioevent.ioeventusertaskhandlerstarter.annotation.EnableIOEventUserTask;
 import org.springframework.boot.SpringApplication;
